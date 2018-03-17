@@ -10,6 +10,12 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
+<<<<<<< HEAD
 move(board, input_to_index(input))
+=======
+input_to_index(input)
+
+move(board, input)
+>>>>>>> 43144a85154b8d6cad712db0c78b8ab930371171
 
 display_board(board)

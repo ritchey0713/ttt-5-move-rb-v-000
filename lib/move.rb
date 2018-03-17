@@ -8,6 +8,7 @@ end
 
 
 def input_to_index(input)
+<<<<<<< HEAD
   input.to_i - 1 
  end 
 
@@ -16,3 +17,12 @@ def move (array, input, player="X")
 end 
 
 
+=======
+input.to_i - 1 
+ end 
+
+def move (array, input, value = "X")  
+  array[input] = value
+end 
+
+>>>>>>> 43144a85154b8d6cad712db0c78b8ab930371171
